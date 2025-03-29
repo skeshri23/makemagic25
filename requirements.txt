@@ -1,0 +1,6 @@
+torch
+torchaudio
+firebase-admin
+pyaudio
+supabase
+numpy
