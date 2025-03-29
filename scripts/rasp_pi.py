@@ -12,8 +12,8 @@ model = torch.load(MODEL_PATH)
 model.eval()
 
 # Supabase credentials (stored in .env)
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_URL = os.getenv("https://xdewqotingvjamnlopfd.supabase.co")
+SUPABASE_KEY = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhkZXdxb3Rpbmd2amFtbmxvcGZkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDMyNTQ5ODcsImV4cCI6MjA1ODgzMDk4N30.1XASDPP53GhvEWzOZtFyk-YLzr0CeePhu9mNVapimE0")
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Audio recording parameters

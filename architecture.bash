@@ -11,8 +11,7 @@ AI_Audio_Surveillance/
 │    ├── offline_storage.py             # Stores logs in local DB when offline
 │── arduino/                        # If Arduino is used for control
 │    ├── arduino_code.ino               # Arduino firmware
-│── esp32/                          # If ESP32 is used
-│    ├── esp32_code.ino                 # ESP32 firmware
+│── esp32.ino                           # ESP32 firmware                 
 │── .env                            # Environment variables (Supabase API keys)
 │── requirements.txt                # Python dependencies
 │── README.md                       # Project documentation
