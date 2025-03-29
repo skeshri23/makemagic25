@@ -1,6 +1,7 @@
 torch
-torchaudio
-firebase-admin
-pyaudio
-supabase
+librosa
 numpy
+matplotlib
+soundfile
+supabase
+gpiozero
