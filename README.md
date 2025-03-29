@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # **makemagic25**
 
 ## **AI Audio Surveillance for Public Safety 🚨**
@@ -18,3 +19,23 @@ AI-Audio-Surveillance/
 │   ├── sound_model.h5      # Trained AI model (if using custom training)
 │── requirements.txt        # Dependencies for easy setup
 │── README.md               # Explanation of how to run your project
+=======
+**AI-based Audio Surveillence System**
+
+# Create a virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+source venv/bin/activate
+
+# Install Python dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
+
+# How it works:
+Wake-Up Mode (wakeup.py) runs to detect loud sounds.
+Once activated, it triggers raspi_ai.py.
+raspi_ai.py does real-time audio classification and anomaly detection.
+Offline logs are handled by offline_storage.py and sync periodically.
+>>>>>>> 59ac4157cd6eb39591c802821dee1e2c6a16612a
